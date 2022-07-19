@@ -17,7 +17,7 @@ body {
     height: 646px;
     background-color: black;
     display: flex;
-    margin: 50px 30px 100px 50px;
+    margin: 50px 30px 80px 50px;
     border-radius: 38px;
 
 }
@@ -62,11 +62,114 @@ body {
 
 
 
-/* palyer card section start */
+/* aside section start */
+
+.asideContainer {
+    margin-left: 40px;
+}
 
 .asid-menu {
+    position: absolute;
     background-color: black;
     width: 312px;
     height: 312px;
+    border-radius: 10px;
 }
-.click
+
+.clickAside {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 252px;
+    height: 64px;
+    padding: 20px;
+
+}
+
+
+aside a {
+    text-decoration: none;
+    color: black;
+
+}
+
+aside button {
+    border-radius: 10px;
+    font-weight: 800;
+
+}
+
+/* player card-----------////// */
+
+.playersInfoSection {
+    display: flex;
+    /* display: grid;
+    grid-template-columns: 2, 1fr; */
+    justify-content: space-between;
+    margin-right: 20px;
+
+}
+
+.Playercards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-around;
+    gap: 20px;
+
+}
+
+.card {
+    box-shadow: 2px 2px 2px 2px rgb(133, 106, 106);
+}
+
+.card {
+    width: 300px;
+    height: 362px;
+}
+
+.card>img {
+    width: 100%;
+}
+
+.cardInfo {
+    padding: 15px;
+
+}
+
+.cardButton {
+    width: 100px;
+    height: 32px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+/* footer-------- */
+
+.footer {
+    margin-top: 70px;
+    width: 100%;
+    height: 300px;
+    background: #161616;
+}
+
+.footerTitle {
+    text-align: center;
+    /* align-items: center; */
+    padding: 30px;
+
+}
+
+.hotijenterline {
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 20px;
+
+}
+
+.footerDetels {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 120px;
+    color: whitesmoke;
+}
+
