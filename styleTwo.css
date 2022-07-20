@@ -151,6 +151,9 @@ aside button:hover {
     align-items: center;
 }
 
+.upcomingMach {
+    text-align: center;
+}
 
 .Playercards {
     display: grid;
