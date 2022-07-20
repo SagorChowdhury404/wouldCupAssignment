@@ -104,6 +104,14 @@ aside a {
 
 }
 
+
+
+/* UpcomeingMAtch-------------------- */
+.UpcomeingMAtch {
+    background-color: rgb(235, 9, 9);
+}
+
+
 aside button {
     border-radius: 10px;
     font-weight: 800;
@@ -118,6 +126,10 @@ aside button:hover {
     background-color: red;
 }
 
+.blog {
+    background-color: none;
+}
+
 /* player card-----------////// */
 
 .playersInfoSection {
@@ -128,6 +140,16 @@ aside button:hover {
     margin-right: 90px;
 
 }
+
+/*----------------------- upcomingcard -------------------------------- */
+.UpcomeingCards {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 .Playercards {
     display: grid;
@@ -173,6 +195,7 @@ aside button:hover {
     align-items: center;
 }
 
+/* ---------------upcoming card -------------- */
 
 
 /* -------------view all-------------- */
