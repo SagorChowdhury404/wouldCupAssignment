@@ -6,8 +6,6 @@
 body {
     /* -----> google font -----------/////////// */
     font-family: 'DM Serif Display', serif;
-    font-family: 'Poppins', sans-serif;
-
 }
 
 
@@ -41,8 +39,22 @@ body {
     padding: 10px 25px;
     border-radius: 10px;
     margin-top: 20px;
+    background-color: crimson;
+    transition: all 3s ease-out;
 }
 
+.watchButton:hover {
+    background-color: #fff;
+    color: #333;
+}
+
+.fa-solid:hover {
+    transform: rotate(180deg);
+}
+
+.fa-solid {
+    padding: 5px;
+}
 
 
 /* banner images ----------///// */
@@ -82,9 +94,9 @@ body {
     width: 252px;
     height: 64px;
     padding: 20px;
+    font-weight: 800;
 
 }
-
 
 aside a {
     text-decoration: none;
@@ -96,6 +108,14 @@ aside button {
     border-radius: 10px;
     font-weight: 800;
 
+}
+
+aside button:hover {
+    background-color: rgb(209, 19, 82);
+}
+
+.blog {
+    background-color: red;
 }
 
 /* player card-----------////// */
@@ -123,7 +143,7 @@ aside button {
 
 .card {
     width: 250px;
-    height: 362px;
+    height: 342px;
 }
 
 .card>img {
@@ -131,6 +151,7 @@ aside button {
 }
 
 .cardInfo {
+    margin-top: 20px;
     padding: 15px;
 
 }
@@ -141,6 +162,30 @@ aside button {
     border-radius: 5px;
     margin-top: 5px;
 }
+
+.fa-clock-eleven-thirty {
+    color: brown;
+}
+
+.cardIcon {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+/* -------------view all-------------- */
+.viewAll {
+    text-align: center;
+    visibility: hidden;
+    margin-top: 30px;
+    color: crimson;
+
+}
+
+
+
 
 /* footer-------- */
 
